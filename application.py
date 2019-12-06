@@ -1,11 +1,18 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+import word_2_vec_model
 
 # EB looks for an 'application' callable by default.
 from settings import application
 
 @application.route('/')
 def index():
-    return render_template("index.html")
+    search_term = request.args.get('term') or 'alice'
+    similar_words = word_2_vec_model.most_similar(search_term)
+
+    return render_template(
+        "index.html",
+        search_term=search_term,
+        similar_words=similar_words)
 
 # run the app.
 if __name__ == "__main__":
