@@ -8,7 +8,15 @@
 </head>
 
 <body>
-    {{similar_words}}
+    <form method="get">
+        <input type="text" name="term" placeholder="alice">
+        <button type="submit">Search</button>
+    </form>
+    <ol>
+        {% for word in similar_words %}
+        <li>{{ word }}</li>
+        {% endfor %}
+    </ol>
 </body>
 
 </html>

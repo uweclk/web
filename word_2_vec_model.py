@@ -9,4 +9,7 @@ abs_file_path = os.path.join(script_dir, rel_path)
 model = Word2Vec.load(abs_file_path)
 
 def most_similar(word):
-    return model.wv.most_similar(word)
+    if word in model.wv:
+        return model.wv.most_similar(word)
+    else:
+        return [word + " is not in our vocabulary"]
