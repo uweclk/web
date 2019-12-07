@@ -1,0 +1,413 @@
+Retrieving logs...
+============= i-06b38550cd3ca91eb ==============
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Sat Dec 07 13:01:17.842287 2019] [:error] [pid 3336] [remote 44.224.22.196:15540]     import word_2_vec_model
+[Sat Dec 07 13:01:17.842293 2019] [:error] [pid 3336] [remote 44.224.22.196:15540]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:17.842297 2019] [:error] [pid 3336] [remote 44.224.22.196:15540]     import gensim
+[Sat Dec 07 13:01:17.842312 2019] [:error] [pid 3336] [remote 44.224.22.196:15540] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:01:18.008434 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:01:18.008481 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:01:18.008564 2019] [:error] [pid 3336] [remote 44.224.22.196:180] Traceback (most recent call last):
+[Sat Dec 07 13:01:18.008590 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:01:18.008594 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import word_2_vec_model
+[Sat Dec 07 13:01:18.008602 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:18.008606 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import gensim
+[Sat Dec 07 13:01:18.008621 2019] [:error] [pid 3336] [remote 44.224.22.196:180] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:01:18.172867 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:01:18.172913 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:01:18.172994 2019] [:error] [pid 3336] [remote 44.224.22.196:180] Traceback (most recent call last):
+[Sat Dec 07 13:01:18.173020 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:01:18.173025 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import word_2_vec_model
+[Sat Dec 07 13:01:18.173032 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:18.173036 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import gensim
+[Sat Dec 07 13:01:18.173050 2019] [:error] [pid 3336] [remote 44.224.22.196:180] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:01:18.337284 2019] [:error] [pid 3336] [remote 44.224.22.196:176] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:01:18.337329 2019] [:error] [pid 3336] [remote 44.224.22.196:176] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:01:18.337413 2019] [:error] [pid 3336] [remote 44.224.22.196:176] Traceback (most recent call last):
+[Sat Dec 07 13:01:18.337439 2019] [:error] [pid 3336] [remote 44.224.22.196:176]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:01:18.337443 2019] [:error] [pid 3336] [remote 44.224.22.196:176]     import word_2_vec_model
+[Sat Dec 07 13:01:18.337451 2019] [:error] [pid 3336] [remote 44.224.22.196:176]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:18.337455 2019] [:error] [pid 3336] [remote 44.224.22.196:176]     import gensim
+[Sat Dec 07 13:01:18.337470 2019] [:error] [pid 3336] [remote 44.224.22.196:176] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:01:18.581221 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:01:18.581268 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:01:18.581356 2019] [:error] [pid 3336] [remote 44.224.22.196:180] Traceback (most recent call last):
+[Sat Dec 07 13:01:18.581383 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:01:18.581396 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import word_2_vec_model
+[Sat Dec 07 13:01:18.581404 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:18.581408 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import gensim
+[Sat Dec 07 13:01:18.581423 2019] [:error] [pid 3336] [remote 44.224.22.196:180] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:01:18.826779 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:01:18.826835 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:01:18.826934 2019] [:error] [pid 3336] [remote 44.224.22.196:180] Traceback (most recent call last):
+[Sat Dec 07 13:01:18.826960 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:01:18.826964 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import word_2_vec_model
+[Sat Dec 07 13:01:18.826971 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:18.826988 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import gensim
+[Sat Dec 07 13:01:18.827003 2019] [:error] [pid 3336] [remote 44.224.22.196:180] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:01:19.070586 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:01:19.070634 2019] [:error] [pid 3336] [remote 44.224.22.196:180] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:01:19.070714 2019] [:error] [pid 3336] [remote 44.224.22.196:180] Traceback (most recent call last):
+[Sat Dec 07 13:01:19.070740 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:01:19.070744 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import word_2_vec_model
+[Sat Dec 07 13:01:19.070751 2019] [:error] [pid 3336] [remote 44.224.22.196:180]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:19.070755 2019] [:error] [pid 3336] [remote 44.224.22.196:180]     import gensim
+[Sat Dec 07 13:01:19.070769 2019] [:error] [pid 3336] [remote 44.224.22.196:180] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:01:19.313560 2019] [:error] [pid 3336] [remote 44.224.22.196:15540] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:01:19.313605 2019] [:error] [pid 3336] [remote 44.224.22.196:15540] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:01:19.313685 2019] [:error] [pid 3336] [remote 44.224.22.196:15540] Traceback (most recent call last):
+[Sat Dec 07 13:01:19.313710 2019] [:error] [pid 3336] [remote 44.224.22.196:15540]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:01:19.313715 2019] [:error] [pid 3336] [remote 44.224.22.196:15540]     import word_2_vec_model
+[Sat Dec 07 13:01:19.313722 2019] [:error] [pid 3336] [remote 44.224.22.196:15540]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:19.313726 2019] [:error] [pid 3336] [remote 44.224.22.196:15540]     import gensim
+[Sat Dec 07 13:01:19.313740 2019] [:error] [pid 3336] [remote 44.224.22.196:15540] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:01:19.555721 2019] [:error] [pid 3336] [remote 44.224.22.196:176] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:01:19.555779 2019] [:error] [pid 3336] [remote 44.224.22.196:176] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:01:19.555859 2019] [:error] [pid 3336] [remote 44.224.22.196:176] Traceback (most recent call last):
+[Sat Dec 07 13:01:19.555928 2019] [:error] [pid 3336] [remote 44.224.22.196:176]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:01:19.555936 2019] [:error] [pid 3336] [remote 44.224.22.196:176]     import word_2_vec_model
+[Sat Dec 07 13:01:19.555944 2019] [:error] [pid 3336] [remote 44.224.22.196:176]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:01:19.555947 2019] [:error] [pid 3336] [remote 44.224.22.196:176]     import gensim
+[Sat Dec 07 13:01:19.555963 2019] [:error] [pid 3336] [remote 44.224.22.196:176] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 13:25:30.361307 2019] [:error] [pid 3336] [remote 185.173.35.61:15540] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 13:25:30.361361 2019] [:error] [pid 3336] [remote 185.173.35.61:15540] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 13:25:30.361444 2019] [:error] [pid 3336] [remote 185.173.35.61:15540] Traceback (most recent call last):
+[Sat Dec 07 13:25:30.361470 2019] [:error] [pid 3336] [remote 185.173.35.61:15540]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 13:25:30.361474 2019] [:error] [pid 3336] [remote 185.173.35.61:15540]     import word_2_vec_model
+[Sat Dec 07 13:25:30.361482 2019] [:error] [pid 3336] [remote 185.173.35.61:15540]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 13:25:30.361491 2019] [:error] [pid 3336] [remote 185.173.35.61:15540]     import gensim
+[Sat Dec 07 13:25:30.361507 2019] [:error] [pid 3336] [remote 185.173.35.61:15540] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 14:10:07.100574 2019] [:error] [pid 3336] [remote 177.11.136.68:180] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 14:10:07.100631 2019] [:error] [pid 3336] [remote 177.11.136.68:180] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 14:10:07.100715 2019] [:error] [pid 3336] [remote 177.11.136.68:180] Traceback (most recent call last):
+[Sat Dec 07 14:10:07.100741 2019] [:error] [pid 3336] [remote 177.11.136.68:180]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 14:10:07.100746 2019] [:error] [pid 3336] [remote 177.11.136.68:180]     import word_2_vec_model
+[Sat Dec 07 14:10:07.100753 2019] [:error] [pid 3336] [remote 177.11.136.68:180]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 14:10:07.100757 2019] [:error] [pid 3336] [remote 177.11.136.68:180]     import gensim
+[Sat Dec 07 14:10:07.100772 2019] [:error] [pid 3336] [remote 177.11.136.68:180] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 15:51:35.106365 2019] [:error] [pid 3336] [remote 140.240.225.151:180] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 15:51:35.106419 2019] [:error] [pid 3336] [remote 140.240.225.151:180] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 15:51:35.106500 2019] [:error] [pid 3336] [remote 140.240.225.151:180] Traceback (most recent call last):
+[Sat Dec 07 15:51:35.106526 2019] [:error] [pid 3336] [remote 140.240.225.151:180]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 15:51:35.106531 2019] [:error] [pid 3336] [remote 140.240.225.151:180]     import word_2_vec_model
+[Sat Dec 07 15:51:35.106538 2019] [:error] [pid 3336] [remote 140.240.225.151:180]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 15:51:35.106550 2019] [:error] [pid 3336] [remote 140.240.225.151:180]     import gensim
+[Sat Dec 07 15:51:35.106567 2019] [:error] [pid 3336] [remote 140.240.225.151:180] ModuleNotFoundError: No module named 'gensim'
+[Sat Dec 07 15:57:17.593500 2019] [:error] [pid 3336] [remote 154.47.130.178:180] mod_wsgi (pid=3336): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Sat Dec 07 15:57:17.593554 2019] [:error] [pid 3336] [remote 154.47.130.178:180] mod_wsgi (pid=3336): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Sat Dec 07 15:57:17.593636 2019] [:error] [pid 3336] [remote 154.47.130.178:180] Traceback (most recent call last):
+[Sat Dec 07 15:57:17.593662 2019] [:error] [pid 3336] [remote 154.47.130.178:180]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Sat Dec 07 15:57:17.593667 2019] [:error] [pid 3336] [remote 154.47.130.178:180]     import word_2_vec_model
+[Sat Dec 07 15:57:17.593674 2019] [:error] [pid 3336] [remote 154.47.130.178:180]   File "/opt/python/current/app/word_2_vec_model.py", line 1, in <module>
+[Sat Dec 07 15:57:17.593678 2019] [:error] [pid 3336] [remote 154.47.130.178:180]     import gensim
+[Sat Dec 07 15:57:17.593692 2019] [:error] [pid 3336] [remote 154.47.130.178:180] ModuleNotFoundError: No module named 'gensim'
+
+
+
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2019-12-06 18:44:36,820 CRIT Supervisor running as root (no user in config file)
+2019-12-06 18:44:36,863 INFO RPC interface 'supervisor' initialized
+2019-12-06 18:44:36,863 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-12-06 18:44:36,863 INFO supervisord started with pid 3024
+2019-12-06 18:44:37,870 INFO spawned: 'httpd' with pid 3111
+2019-12-06 18:44:39,045 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-12-06 18:45:14,645 INFO stopped: httpd (exit status 0)
+2019-12-06 18:45:15,650 INFO spawned: 'httpd' with pid 3331
+2019-12-06 18:45:16,686 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+127.0.0.1 (-) - - [06/Dec/2019:18:45:18 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [06/Dec/2019:18:45:19 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [06/Dec/2019:18:45:20 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [06/Dec/2019:18:45:21 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+159.203.201.83 (-) - - [06/Dec/2019:19:58:51 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 zgrab/0.x"
+71.6.232.9 (-) - - [06/Dec/2019:21:34:44 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+209.17.96.74 (-) - - [07/Dec/2019:00:22:26 +0000] "GET / HTTP/1.0" 500 527 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+74.83.245.163 (-) - - [07/Dec/2019:00:23:48 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=busybox&curpath=/&currentsetting.htm=1 HTTP/1.1" 400 226 "-" "Mozilla/5.0"
+177.68.18.81 (-) - - [07/Dec/2019:01:52:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:37 +0000] "GET http://example.com/ HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:37 +0000] "GET http://169.254.169.254/ HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:37 +0000] "GET http://[::ffff:a9fe:a9fe]/ HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:37 +0000] "GET http://169.254.169.254/latest/dynamic/instance-identity/document HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:37 +0000] "GET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:38 +0000] "GET / HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:38 +0000] "GET / HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:38 +0000] "GET / HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:38 +0000] "GET /latest/dynamic/instance-identity/document HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:38 +0000] "GET /latest/dynamic/instance-identity/document HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:38 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:39 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:39 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:39 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:39 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:40 +0000] "\x16\x03\x01" 400 226 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:40 +0000] "\x16\x03\x01" 400 226 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:40 +0000] "\x16\x03\x01" 400 226 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:40 +0000] "\x16\x03\x01" 400 226 "-" "-"
+44.225.84.206 (-) - - [07/Dec/2019:01:56:40 +0000] "\x16\x03\x01" 400 226 "-" "-"
+109.125.166.165 (-) - - [07/Dec/2019:02:14:06 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+187.202.149.206 (-) - - [07/Dec/2019:04:27:50 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+60.191.38.77 (-) - - [07/Dec/2019:05:44:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0"
+138.0.90.243 (-) - - [07/Dec/2019:06:16:58 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+83.97.20.49 (-) - - [07/Dec/2019:07:58:10 +0000] "GET / HTTP/1.0" 500 527 "-" "-"
+103.57.187.27 (-) - - [07/Dec/2019:08:21:37 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+104.219.234.53 (-) - - [07/Dec/2019:08:43:24 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 zgrab/0.x"
+46.61.32.198 (-) - - [07/Dec/2019:10:47:17 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+112.122.64.2 (-) - - [07/Dec/2019:10:54:59 +0000] "POST /editBlackAndWhiteList HTTP/1.1\n" 400 226 "-" "-"
+150.223.22.146 (-) - - [07/Dec/2019:11:42:51 +0000] "GET /TP/public/index.php HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+150.223.22.146 (-) - - [07/Dec/2019:11:42:53 +0000] "GET /TP/index.php HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+150.223.22.146 (-) - - [07/Dec/2019:11:42:56 +0000] "GET /thinkphp/html/public/index.php HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+150.223.22.146 (-) - - [07/Dec/2019:11:42:58 +0000] "GET /html/public/index.php HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+150.223.22.146 (-) - - [07/Dec/2019:11:42:58 +0000] "GET /public/index.php HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+150.223.22.146 (-) - - [07/Dec/2019:11:42:59 +0000] "GET /TP/html/public/index.php HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+150.223.22.146 (-) - - [07/Dec/2019:11:42:59 +0000] "GET /elrekt.php HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+150.223.22.146 (-) - - [07/Dec/2019:11:43:00 +0000] "GET /index.php HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+150.223.22.146 (-) - - [07/Dec/2019:11:43:00 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+168.181.14.58 (-) - - [07/Dec/2019:12:41:18 +0000] "GET / HTTP/1.0" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:16 +0000] "GET http://example.com/ HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:17 +0000] "GET http://169.254.169.254/ HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:17 +0000] "GET http://[::ffff:a9fe:a9fe]/ HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:17 +0000] "GET http://169.254.169.254/latest/dynamic/instance-identity/document HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:17 +0000] "GET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:17 +0000] "GET / HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:17 +0000] "GET / HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:18 +0000] "GET / HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:18 +0000] "GET /latest/dynamic/instance-identity/document HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:18 +0000] "GET /latest/dynamic/instance-identity/document HTTP/1.1" 500 527 "-" "AWS Security Scanner"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:18 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:18 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:18 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:19 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:19 +0000] "CONNECT 34.227.121.45:80 HTTP/1.0" 500 527 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:19 +0000] "\x16\x03\x01" 400 226 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:19 +0000] "\x16\x03\x01" 400 226 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:20 +0000] "\x16\x03\x01" 400 226 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:20 +0000] "\x16\x03\x01" 400 226 "-" "-"
+44.224.22.196 (-) - - [07/Dec/2019:13:01:20 +0000] "\x16\x03\x01" 400 226 "-" "-"
+185.173.35.61 (-) - - [07/Dec/2019:13:25:30 +0000] "GET / HTTP/1.0" 500 527 "-" "NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com"
+177.11.136.68 (-) - - [07/Dec/2019:14:10:07 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+140.240.225.151 (-) - - [07/Dec/2019:15:51:35 +0000] "POST /invoker/readonly HTTP/1.1" 500 527 "http://34.227.121.45:80/invoker/readonly" "Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)"
+154.47.130.178 (-) - - [07/Dec/2019:15:57:17 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+  Collecting chardet==3.0.4 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+    Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+  Requirement already satisfied: Click==7.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+  Collecting colorama==0.3.9 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+    Downloading https://files.pythonhosted.org/packages/db/c8/7dcf9dbcb22429512708fe3a547f8b6101c0d02137acbd892505aee57adf/colorama-0.3.9-py2.py3-none-any.whl
+  Collecting docutils==0.15.2 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+    Downloading https://files.pythonhosted.org/packages/22/cd/a6aa959dca619918ccb55023b4cb151949c64d4d5d55b3f4ffd7eee0c6e8/docutils-0.15.2-py3-none-any.whl (547kB)
+  Requirement already satisfied: Flask==1.0.2 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+  Collecting future==0.16.0 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+    Downloading https://files.pythonhosted.org/packages/00/2b/8d082ddfed935f3608cc61140df6dcbf0edea1bc3ab52fb6c29ae3e81e85/future-0.16.0.tar.gz (824kB)
+  Collecting gensim==3.8.1 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+    Downloading https://files.pythonhosted.org/packages/d1/dd/112bd4258cee11e0baaaba064060eb156475a42362e59e3ff28e7ca2d29d/gensim-3.8.1-cp36-cp36m-manylinux1_x86_64.whl (24.2MB)
+  Collecting idna==2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+    Downloading https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58kB)
+  Requirement already satisfied: itsdangerous==1.1.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 14))
+  Requirement already satisfied: Jinja2==2.10.3 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 15))
+  Collecting jmespath==0.9.4 (from -r /opt/python/ondeck/app/requirements.txt (line 16))
+    Downloading https://files.pythonhosted.org/packages/83/94/7179c3832a6d45b266ddb2aac329e101367fbdb11f425f13771d27f225bb/jmespath-0.9.4-py2.py3-none-any.whl
+  Requirement already satisfied: MarkupSafe==1.1.1 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 17))
+  Collecting pathspec==0.5.9 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
+    Downloading https://files.pythonhosted.org/packages/84/2a/bfee636b1e2f7d6e30dd74f49201ccfa5c3cf322d44929ecc6c137c486c5/pathspec-0.5.9.tar.gz
+  Collecting pypiwin32==223 (from -r /opt/python/ondeck/app/requirements.txt (line 19))
+    Downloading https://files.pythonhosted.org/packages/d0/1b/2f292bbd742e369a100c91faa0483172cd91a1a422a6692055ac920946c5/pypiwin32-223-py3-none-any.whl
+  Collecting python-dateutil==2.8.0 (from -r /opt/python/ondeck/app/requirements.txt (line 20))
+    Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+  Collecting pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21))
+    Could not find a version that satisfies the requirement pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21)) (from versions: )
+  No matching distribution found for pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21))
+  You are using pip version 9.0.1, however version 19.3.1 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  2019-12-07 16:13:28,926 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  Traceback (most recent call last):
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
+      install_dependencies()
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
+      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
+    File "/usr/lib64/python2.7/subprocess.py", line 190, in check_call
+      raise CalledProcessError(retcode, cmd)
+  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (ElasticBeanstalk::ExternalInvocationError)
+caused by: Collecting boto==2.49.0 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+    Downloading https://files.pythonhosted.org/packages/23/10/c0b78c27298029e4454a472a1919bde20cb182dab1662cec7f2ca1dcc523/boto-2.49.0-py2.py3-none-any.whl (1.4MB)
+  Collecting boto3==1.10.34 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+    Downloading https://files.pythonhosted.org/packages/1f/a5/6b25e39aea40bc03163615c07572d90aaddc9951f5af9c21204d3da46398/boto3-1.10.34-py2.py3-none-any.whl (128kB)
+  Collecting botocore==1.13.34 (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+    Downloading https://files.pythonhosted.org/packages/59/cb/b4772a4abc128f6fd637af9d7fc93a1db11617859af680fc2b2e6282eb95/botocore-1.13.34-py2.py3-none-any.whl (5.8MB)
+  Collecting cement==2.8.2 (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+    Downloading https://files.pythonhosted.org/packages/70/60/608f0b8975f4ee7deaaaa7052210d095e0b96e7cd3becdeede9bd13674a1/cement-2.8.2.tar.gz (165kB)
+  Collecting certifi==2019.11.28 (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+    Downloading https://files.pythonhosted.org/packages/b9/63/df50cac98ea0d5b006c55a399c3bf1db9da7b5a24de7890bc9cfd5dd9e99/certifi-2019.11.28-py2.py3-none-any.whl (156kB)
+  Collecting chardet==3.0.4 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+    Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+  Requirement already satisfied: Click==7.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+  Collecting colorama==0.3.9 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+    Downloading https://files.pythonhosted.org/packages/db/c8/7dcf9dbcb22429512708fe3a547f8b6101c0d02137acbd892505aee57adf/colorama-0.3.9-py2.py3-none-any.whl
+  Collecting docutils==0.15.2 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+    Downloading https://files.pythonhosted.org/packages/22/cd/a6aa959dca619918ccb55023b4cb151949c64d4d5d55b3f4ffd7eee0c6e8/docutils-0.15.2-py3-none-any.whl (547kB)
+  Requirement already satisfied: Flask==1.0.2 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+  Collecting future==0.16.0 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+    Downloading https://files.pythonhosted.org/packages/00/2b/8d082ddfed935f3608cc61140df6dcbf0edea1bc3ab52fb6c29ae3e81e85/future-0.16.0.tar.gz (824kB)
+  Collecting gensim==3.8.1 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+    Downloading https://files.pythonhosted.org/packages/d1/dd/112bd4258cee11e0baaaba064060eb156475a42362e59e3ff28e7ca2d29d/gensim-3.8.1-cp36-cp36m-manylinux1_x86_64.whl (24.2MB)
+  Collecting idna==2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+    Downloading https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58kB)
+  Requirement already satisfied: itsdangerous==1.1.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 14))
+  Requirement already satisfied: Jinja2==2.10.3 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 15))
+  Collecting jmespath==0.9.4 (from -r /opt/python/ondeck/app/requirements.txt (line 16))
+    Downloading https://files.pythonhosted.org/packages/83/94/7179c3832a6d45b266ddb2aac329e101367fbdb11f425f13771d27f225bb/jmespath-0.9.4-py2.py3-none-any.whl
+  Requirement already satisfied: MarkupSafe==1.1.1 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 17))
+  Collecting pathspec==0.5.9 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
+    Downloading https://files.pythonhosted.org/packages/84/2a/bfee636b1e2f7d6e30dd74f49201ccfa5c3cf322d44929ecc6c137c486c5/pathspec-0.5.9.tar.gz
+  Collecting pypiwin32==223 (from -r /opt/python/ondeck/app/requirements.txt (line 19))
+    Downloading https://files.pythonhosted.org/packages/d0/1b/2f292bbd742e369a100c91faa0483172cd91a1a422a6692055ac920946c5/pypiwin32-223-py3-none-any.whl
+  Collecting python-dateutil==2.8.0 (from -r /opt/python/ondeck/app/requirements.txt (line 20))
+    Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+  Collecting pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21))
+    Could not find a version that satisfies the requirement pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21)) (from versions: )
+  No matching distribution found for pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21))
+  You are using pip version 9.0.1, however version 19.3.1 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  2019-12-07 16:13:28,926 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  Traceback (most recent call last):
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
+      install_dependencies()
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
+      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
+    File "/usr/lib64/python2.7/subprocess.py", line 190, in check_call
+      raise CalledProcessError(retcode, cmd)
+  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (Executor::NonZeroExitStatus)
+
+
+[2019-12-07T16:13:28.934Z] INFO  [1318]  - [Application update app-5030-191207_111304@12/AppDeployStage0/AppDeployPreHook/03deploy.py] : Activity failed.
+[2019-12-07T16:13:28.934Z] INFO  [1318]  - [Application update app-5030-191207_111304@12/AppDeployStage0/AppDeployPreHook] : Activity failed.
+[2019-12-07T16:13:28.934Z] INFO  [1318]  - [Application update app-5030-191207_111304@12/AppDeployStage0] : Activity failed.
+[2019-12-07T16:13:28.934Z] INFO  [1318]  - [Application update app-5030-191207_111304@12] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy failed
+[2019-12-07T16:14:18.369Z] INFO  [1461]  - [CMD-TailLogs] : Starting activity...
+[2019-12-07T16:14:18.369Z] INFO  [1461]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2019-12-07T16:14:18.369Z] INFO  [1461]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2019-12-07T16:14:18.369Z] INFO  [1461]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2019-12-07T16:14:18.369Z] INFO  [1461]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+  Collecting pathspec==0.5.9 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
+    Downloading https://files.pythonhosted.org/packages/84/2a/bfee636b1e2f7d6e30dd74f49201ccfa5c3cf322d44929ecc6c137c486c5/pathspec-0.5.9.tar.gz
+  Collecting pypiwin32==223 (from -r /opt/python/ondeck/app/requirements.txt (line 19))
+    Downloading https://files.pythonhosted.org/packages/d0/1b/2f292bbd742e369a100c91faa0483172cd91a1a422a6692055ac920946c5/pypiwin32-223-py3-none-any.whl
+  Collecting python-dateutil==2.8.0 (from -r /opt/python/ondeck/app/requirements.txt (line 20))
+    Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+  Collecting pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21))
+    Could not find a version that satisfies the requirement pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21)) (from versions: )
+  No matching distribution found for pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21))
+  You are using pip version 9.0.1, however version 19.3.1 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  2019-12-07 16:13:28,926 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  Traceback (most recent call last):
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
+      install_dependencies()
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
+      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
+    File "/usr/lib64/python2.7/subprocess.py", line 190, in check_call
+      raise CalledProcessError(retcode, cmd)
+  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (ElasticBeanstalk::ExternalInvocationError)
+caused by: Collecting boto==2.49.0 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+    Downloading https://files.pythonhosted.org/packages/23/10/c0b78c27298029e4454a472a1919bde20cb182dab1662cec7f2ca1dcc523/boto-2.49.0-py2.py3-none-any.whl (1.4MB)
+  Collecting boto3==1.10.34 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+    Downloading https://files.pythonhosted.org/packages/1f/a5/6b25e39aea40bc03163615c07572d90aaddc9951f5af9c21204d3da46398/boto3-1.10.34-py2.py3-none-any.whl (128kB)
+  Collecting botocore==1.13.34 (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+    Downloading https://files.pythonhosted.org/packages/59/cb/b4772a4abc128f6fd637af9d7fc93a1db11617859af680fc2b2e6282eb95/botocore-1.13.34-py2.py3-none-any.whl (5.8MB)
+  Collecting cement==2.8.2 (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+    Downloading https://files.pythonhosted.org/packages/70/60/608f0b8975f4ee7deaaaa7052210d095e0b96e7cd3becdeede9bd13674a1/cement-2.8.2.tar.gz (165kB)
+  Collecting certifi==2019.11.28 (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+    Downloading https://files.pythonhosted.org/packages/b9/63/df50cac98ea0d5b006c55a399c3bf1db9da7b5a24de7890bc9cfd5dd9e99/certifi-2019.11.28-py2.py3-none-any.whl (156kB)
+  Collecting chardet==3.0.4 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+    Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+  Requirement already satisfied: Click==7.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+  Collecting colorama==0.3.9 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+    Downloading https://files.pythonhosted.org/packages/db/c8/7dcf9dbcb22429512708fe3a547f8b6101c0d02137acbd892505aee57adf/colorama-0.3.9-py2.py3-none-any.whl
+  Collecting docutils==0.15.2 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+    Downloading https://files.pythonhosted.org/packages/22/cd/a6aa959dca619918ccb55023b4cb151949c64d4d5d55b3f4ffd7eee0c6e8/docutils-0.15.2-py3-none-any.whl (547kB)
+  Requirement already satisfied: Flask==1.0.2 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+  Collecting future==0.16.0 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+    Downloading https://files.pythonhosted.org/packages/00/2b/8d082ddfed935f3608cc61140df6dcbf0edea1bc3ab52fb6c29ae3e81e85/future-0.16.0.tar.gz (824kB)
+  Collecting gensim==3.8.1 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+    Downloading https://files.pythonhosted.org/packages/d1/dd/112bd4258cee11e0baaaba064060eb156475a42362e59e3ff28e7ca2d29d/gensim-3.8.1-cp36-cp36m-manylinux1_x86_64.whl (24.2MB)
+  Collecting idna==2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+    Downloading https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58kB)
+  Requirement already satisfied: itsdangerous==1.1.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 14))
+  Requirement already satisfied: Jinja2==2.10.3 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 15))
+  Collecting jmespath==0.9.4 (from -r /opt/python/ondeck/app/requirements.txt (line 16))
+    Downloading https://files.pythonhosted.org/packages/83/94/7179c3832a6d45b266ddb2aac329e101367fbdb11f425f13771d27f225bb/jmespath-0.9.4-py2.py3-none-any.whl
+  Requirement already satisfied: MarkupSafe==1.1.1 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 17))
+  Collecting pathspec==0.5.9 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
+    Downloading https://files.pythonhosted.org/packages/84/2a/bfee636b1e2f7d6e30dd74f49201ccfa5c3cf322d44929ecc6c137c486c5/pathspec-0.5.9.tar.gz
+  Collecting pypiwin32==223 (from -r /opt/python/ondeck/app/requirements.txt (line 19))
+    Downloading https://files.pythonhosted.org/packages/d0/1b/2f292bbd742e369a100c91faa0483172cd91a1a422a6692055ac920946c5/pypiwin32-223-py3-none-any.whl
+  Collecting python-dateutil==2.8.0 (from -r /opt/python/ondeck/app/requirements.txt (line 20))
+    Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+  Collecting pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21))
+    Could not find a version that satisfies the requirement pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21)) (from versions: )
+  No matching distribution found for pywin32==227 (from -r /opt/python/ondeck/app/requirements.txt (line 21))
+  You are using pip version 9.0.1, however version 19.3.1 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  2019-12-07 16:13:28,926 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  Traceback (most recent call last):
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
+      install_dependencies()
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
+      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
+    File "/usr/lib64/python2.7/subprocess.py", line 190, in check_call
+      raise CalledProcessError(retcode, cmd)
+  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (Executor::NonZeroExitStatus)
+
+
+[2019-12-07T16:13:28.934Z] ERROR [1318]  : Command CMD-AppDeploy failed!
+[2019-12-07T16:13:28.935Z] INFO  [1318]  : Command processor returning results: 
+{"status":"FAILURE","api_version":"1.0","results":[{"status":"FAILURE","msg":"(TRUNCATED)...)\n  File \"/usr/lib64/python2.7/subprocess.py\", line 190, in check_call\n    raise CalledProcessError(retcode, cmd)\nCalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1. \nHook /opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py failed. For more detail, check /var/log/eb-activity.log using console or EB CLI","returncode":1,"events":[{"msg":"Your requirements.txt is invalid. Snapshot your logs for details.","severity":"ERROR","timestamp":1575735208},{"msg":"Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1","severity":"SYSTEM","timestamp":1575735208}]}],"truncated":"true"}
+[2019-12-07T16:14:18.362Z] DEBUG [1461]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-12-07T16:14:18.362Z] DEBUG [1461]  : Checking if the command processor should execute...
+[2019-12-07T16:14:18.365Z] DEBUG [1461]  : Checking whether the command is applicable to instance (i-06b38550cd3ca91eb)..
+[2019-12-07T16:14:18.366Z] INFO  [1461]  : Command is applicable to this instance (i-06b38550cd3ca91eb)..
+[2019-12-07T16:14:18.366Z] DEBUG [1461]  : Checking if the received command stage is valid..
+[2019-12-07T16:14:18.366Z] INFO  [1461]  : No stage_num in command. Valid stage..
+[2019-12-07T16:14:18.366Z] INFO  [1461]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-06b38550cd3ca91eb"], "data"=>"4af18e5a-9dd9-47e6-8e7b-3923f4c06808", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"4af18e5a-9dd9-47e6-8e7b-3923f4c06808"}
+[2019-12-07T16:14:18.366Z] INFO  [1461]  : Command processor should execute command.
+[2019-12-07T16:14:18.366Z] DEBUG [1461]  : Storing current stage..
+[2019-12-07T16:14:18.366Z] DEBUG [1461]  : Stage_num does not exist. Not saving null stage. Returning..
+[2019-12-07T16:14:18.366Z] DEBUG [1461]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-12-07T16:14:18.366Z] DEBUG [1461]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-12-07T16:14:18.367Z] DEBUG [1461]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-12-07T16:14:18.367Z] INFO  [1461]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2019-12-07T16:14:18.368Z] INFO  [1461]  : Updating Command definition of addon logpublish.
+[2019-12-07T16:14:18.368Z] INFO  [1461]  : Updating Command definition of addon logstreaming.
+[2019-12-07T16:14:18.368Z] DEBUG [1461]  : Loaded definition of Command CMD-TailLogs.
+[2019-12-07T16:14:18.369Z] INFO  [1461]  : Executing CMD-TailLogs
+[2019-12-07T16:14:18.369Z] INFO  [1461]  : Executing command: CMD-TailLogs...
+[2019-12-07T16:14:18.369Z] INFO  [1461]  : Executing command CMD-TailLogs activities...
+[2019-12-07T16:14:18.369Z] DEBUG [1461]  : Setting environment variables..
+[2019-12-07T16:14:18.369Z] INFO  [1461]  : Running AddonsBefore for command CMD-TailLogs...
+[2019-12-07T16:14:18.369Z] DEBUG [1461]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2019-12-07T16:14:18.369Z] INFO  [1461]  : Running stage 0 of command CMD-TailLogs...
+[2019-12-07T16:14:18.369Z] DEBUG [1461]  : Loaded 1 actions for stage 0.
+[2019-12-07T16:14:18.369Z] INFO  [1461]  : Running 1 of 1 actions: TailLogs...
+
+
+
