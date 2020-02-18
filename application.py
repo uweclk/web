@@ -6,7 +6,7 @@ from settings import application
 
 @application.route('/')
 def index():
-    search_term = request.args.get('term') or 'alice'
+    search_term = request.args.get('term') or 'water'
 
     similar_words = word_2_vec_model.most_similar(search_term)
 
