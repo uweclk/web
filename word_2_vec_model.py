@@ -4,7 +4,7 @@ from stop_words import get_stop_words
 import os
 
 script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
-rel_path = "machine_learning/cbow.model"
+rel_path = "ml_models/cbow.model"
 abs_file_path = os.path.join(script_dir, rel_path)
 
 model = Word2Vec.load(abs_file_path)
