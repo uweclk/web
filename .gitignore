@@ -8,3 +8,5 @@ __pycache__/*
 machine_learning/__pycache__/*
 
 logs.txt
+
+ml_models/*

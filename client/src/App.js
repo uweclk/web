@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import axios from 'axios';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            similar_words: [],
+        };
+    }
+
+    componentDidMount() {
+        axios.get('/api/v1/similar_words?term=water')
+            .then((res) => {
+                this.setState({
+                    similar_words: res.data,
+                });
+            })
+            .catch((err) => {
+                console.error(err);
+            });
+    }
+
+    render() {
+        const { similar_words } = this.state;
+
+        return (
+            <div className="App">
+                <ul>
+                    {similar_words.map(word => (
+                        <li key={word}>{word}</li>
+                    ))}
+                </ul>
+            </div>
+        );
+    }
 }
 
 export default App;
